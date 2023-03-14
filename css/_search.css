@@ -1,0 +1,53 @@
+
+.search {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.search .search-icon{
+    position: absolute;
+    top: 15 px;
+    left: 17px;
+}
+.search .basket{
+    color: #3C3737;
+} 
+.search .search-basket{
+    position: absolute;
+    top: 12 px;
+    right: 20px;
+    padding-left: 10px;
+    border-left: 1px solid #dac3c3;
+    
+}
+.search .button {
+    width: 248px;
+    height: 46px;
+    background: rgba(202, 206, 231, .14);
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.04);
+    border-radius: 15px;
+    border: 1px solid rgba(202, 206, 231, .14);
+}
+.search .button::placeholder{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #232323;
+    padding: 0 20px 0 38px;
+}
+
+ .search .number {
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    background-color: #F54B4B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
